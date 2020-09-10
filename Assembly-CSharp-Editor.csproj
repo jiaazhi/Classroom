@@ -57,6 +57,15 @@
   <ItemGroup>
     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageChecker.cs" />
     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterCreator\Script\Editor\vCreateBasicCharacterEditor.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\vCharacterEditor.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\vThirdPersonInputEditor.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\vInvectorStartup.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\vInvectorWelcomeWindow.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterCreator\Script\Editor\vHelperEditor.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\Editor\vCommentEditor.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Camera\Editor\vThirdPersonCameraEditor.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\Resources\vEditorStartupPrefs.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageImportList.txt" />
@@ -668,6 +677,58 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{F3E95056-DC34-78A7-DA81-8DD1AB13B0EF}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="ShaderProperty.Editor.csproj">
+      <Project>{54F159BA-02C3-767E-1C6E-2F311A5FF3C1}</Project>
+      <Name>ShaderProperty.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniUnlit.Editor.csproj">
+      <Project>{F329E7AC-FB1D-514B-D964-66EBAC4C281A}</Project>
+      <Name>UniUnlit.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniHumanoid.csproj">
+      <Project>{FA521600-9D9D-E456-0628-1C03A6149B9C}</Project>
+      <Name>UniHumanoid</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniJSON.csproj">
+      <Project>{7312E64A-49D5-4FF1-CC67-48C02119B9FD}</Project>
+      <Name>UniJSON</Name>
+    </ProjectReference>
+    <ProjectReference Include="DepthFirstScheduler.csproj">
+      <Project>{9EFE02E3-5E5F-FFA4-8126-8B667197BDB7}</Project>
+      <Name>DepthFirstScheduler</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniGLTF.Editor.csproj">
+      <Project>{9BB515DE-0486-05EB-CC53-6E359A692DEB}</Project>
+      <Name>UniGLTF.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MToon.Editor.csproj">
+      <Project>{682D2D6A-1E2C-0F58-228C-E7851E1F13BC}</Project>
+      <Name>MToon.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniHumanoid.Editor.csproj">
+      <Project>{2E7B8CDB-1838-3107-C6A7-247CA00CD2D4}</Project>
+      <Name>UniHumanoid.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="VRM.csproj">
+      <Project>{4A124322-D6AC-B3C0-2C0B-81F9C137F63E}</Project>
+      <Name>VRM</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniVRM.Editor.csproj">
+      <Project>{5D3DFF4A-789A-312D-6610-9474EA48DB9D}</Project>
+      <Name>UniVRM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniUnlit.csproj">
+      <Project>{928F71E2-6885-CE73-4895-85BBFB052787}</Project>
+      <Name>UniUnlit</Name>
+    </ProjectReference>
+    <ProjectReference Include="MToon.csproj">
+      <Project>{52C58ED7-5474-69E4-C3EB-166D394451AD}</Project>
+      <Name>MToon</Name>
+    </ProjectReference>
+    <ProjectReference Include="ShaderProperty.Runtime.csproj">
+      <Project>{2AA782A5-833E-226D-52BF-D82569B1037C}</Project>
+      <Name>ShaderProperty.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
